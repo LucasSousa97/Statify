@@ -1,47 +1,68 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 # Statify
+
+
+### Screenshots
+
+| ![image](https://github.com/LucasSousa97/Statify/assets/80427541/4979a963-68e1-4d63-a40b-ebd51c98f4a1)| ![image](https://github.com/LucasSousa97/Statify/assets/80427541/b7236ff6-d0d4-4fa5-9281-48e93f23d53f)|
+|:------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|
+|![image](https://github.com/LucasSousa97/Statify/assets/80427541/239f81a7-c3cf-451b-9595-3ed0ad45d2fc)| ![image](https://github.com/LucasSousa97/Statify/assets/80427541/7afcbf9f-e81d-471a-9b1b-90464c2b8c25)|
+| ![image](https://github.com/LucasSousa97/Statify/assets/80427541/8cbc2c2e-3e3e-49e1-8d9c-c6e4aa3e429a)| ![image](https://github.com/LucasSousa97/Statify/assets/80427541/d406c97c-e2d2-43d9-8067-7da8a3178d64)|
+
+Este projeto visa desenvolver uma plataforma de gerenciamento abrangente para e-commerce, permitindo que administradores e proprietários de lojas online gerenciem eficientemente produtos, categorias, pedidos, transações e informações de clientes. A plataforma também incluirá funcionalidades analíticas para visualização de gráficos de compras e notificações para manter os administradores informados sobre atividades importantes.
+
+
+### Funcionalidades Principais
+
+1. **Cadastro de Produtos**:
+   - Adicionar, editar e remover produtos.
+   - Gerenciamento de informações detalhadas do produto, incluindo preço, descrição, estoque e imagens.
+   - Opção para ativar/desativar produtos.
+
+2. **Gerenciamento de Categorias**:
+   - Criar, editar e excluir categorias de produtos.
+   - Organizar produtos em categorias hierárquicas para melhor navegação.
+
+3. **Visualização de Gráficos de Compras**:
+   - Gráficos interativos para análise de vendas ao longo do tempo.
+   - Comparação de desempenho de diferentes produtos e categorias.
+   - Insights sobre tendências de vendas e comportamento do cliente.
+
+4. **Gerenciamento de Pedidos**:
+   - Visualizar, filtrar e gerenciar pedidos recebidos.
+   - Atualização do status do pedido (ex.: pendente, enviado, entregue).
+   - Detalhes do pedido incluindo produtos comprados, quantidades e informações de envio.
+
+5. **Gerenciamento de Transações**:
+   - Visualização de todas as transações financeiras.
+   - Filtragem por data, status e métodos de pagamento.
+   - Detalhamento das transações com informações completas sobre pagamento e reembolsos.
+
+6. **Informações de Clientes Cadastrados**:
+   - Listagem e busca de clientes registrados.
+   - Visualização de perfis de clientes com histórico de compras.
+   - Opções para editar informações do cliente e gerenciar suas preferências.
+
+7. **Notificações**:
+   - Sistema de notificações para alertar sobre novos pedidos, transações e outros eventos importantes.
+   - Personalização de notificações para diferentes tipos de eventos.
+   - Histórico de notificações para referência futura.
+
+### Tecnologias Utilizadas
+
+- **Frontend**: React.ts, Tailwind css
+- **Backend**: Laravel
+- **Banco de Dados**: PostgreSQL
+- **Autenticação**: Laravel Passport
+- **Gráficos e Análises**: ApexCharts
+
+### Requisitos
+
+- **Autenticação e Autorização**: Apenas usuários autenticados e autorizados podem acessar o painel administrativo.
+- **Responsividade**: A plataforma deve ser totalmente responsiva, garantindo uma boa experiência de uso em dispositivos móveis.
+- **Segurança**: Implementação de práticas de segurança para proteção de dados sensíveis e prevenção de ataques.
+
+### Instalação
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
